@@ -30,17 +30,94 @@ This project focuses on building a strong foundation in **Dart logic and program
 ### Completed
 - [x] Initial project setup and Flutter configuration
 - [x] Git repository initialized with proper version control structure
+- [x] Variable Declarations & Type Inference (01_variables/01_variables_basics.dart)
 
 ### In Progress
-- [ ] Dart fundamentals exploration
-- [ ] Building foundational features
+- [ ] **Variables Fundamentals** (`lib/practice/01_variables/`)
+  - [x] Type system fundamentals
+  - [ ] Immutability (final vs const)
+  - [ ] Null safety & nullable types
+  - [ ] Collections (List, Set, Map)
 
-### Upcoming
-- [ ] Advanced Dart patterns and implementations
-- [ ] Comprehensive test coverage
-- [ ] Documentation and code examples
+- [ ] **Operators** (`lib/practice/02_operators/`)
+- [ ] **Control Flow** (`lib/practice/03_control_flow/`)
 
-## 🛠️ Technology Stack
+### Upcoming (Learning Path)
+- [ ] **Functions** (`04_functions/`) - Core building blocks of Dart
+- [ ] **Classes & OOP** (`05_classes_oop/`) - Object-oriented programming fundamentals
+- [ ] **Error Handling** (`06_error_handling/`) - try/catch, exceptions, custom errors
+- [ ] **Asynchronous Programming** (`07_async_programming/`) - Futures, Streams, async/await
+- [ ] **Generics** (`08_generics/`) - Generic types, constraints, reusable code
+
+## � Project Structure
+
+## 📂 Project Structure
+
+This project uses a **learning-by-doing approach** with organized practice modules in `lib/practice/`:
+
+```
+lib/practice/
+├── 01_variables/                    # Variables & Type System
+│   ├── 01_variables_basics.dart     # Type inference, var vs explicit types
+│   ├── 02_immutability.dart         # final vs const keywords
+│   ├── 03_null_safety.dart          # Nullable types, ??, !, late
+│   └── 04_collections.dart          # List, Set, Map fundamentals
+│
+├── 02_operators/                    # Operators & Expressions
+│   ├── 01_arithmetic_operators.dart # +, -, *, /, ~/, %
+│   ├── 02_comparison_operators.dart # ==, !=, <, >, <=, >=
+│   ├── 03_logical_operators.dart    # &&, ||, !
+│   ├── 04_assignment_operators.dart # =, +=, -=, *=, /=, ??=
+│   ├── 05_ternary_operator.dart     # ? : conditional operator
+│   └── 06_type_test_operators.dart  # is, is!, as operators
+│
+├── 03_control_flow/                 # Control Flow Structures
+│   ├── 01_if_else.dart              # if, else if, else statements
+│   ├── 02_switch_case.dart          # switch/case/default
+│   ├── 03_for_loops.dart            # for, for-in, forEach
+│   ├── 04_while_loops.dart          # while, do-while loops
+│   ├── 05_break_continue.dart       # break, continue statements
+│   └── 06_nested_loops.dart         # loops within loops
+│
+├── 04_functions/                    # Functions & Methods
+│   ├── 01_function_basics.dart      # Function declarations, parameters, return
+│   ├── 02_named_parameters.dart     # Named and optional parameters
+│   ├── 03_arrow_functions.dart      # => syntax, single expression functions
+│   ├── 04_anonymous_functions.dart  # Lambda expressions, closures
+│   └── 05_higher_order_functions.dart # Functions as parameters, callbacks
+│
+├── 05_classes_oop/                  # Object-Oriented Programming
+│   ├── 01_class_basics.dart         # Classes, constructors, properties
+│   ├── 02_inheritance.dart          # Extending classes, super keyword
+│   ├── 03_abstract_classes.dart     # Abstract classes and methods
+│   ├── 04_interfaces.dart           # Implementing interfaces
+│   ├── 05_mixins.dart               # Mixins and composition
+│   └── 06_getters_setters.dart      # Getters and setters
+│
+├── 06_error_handling/               # Exception Handling
+│   ├── 01_try_catch.dart            # try/catch/finally blocks
+│   ├── 02_custom_exceptions.dart    # Creating custom exceptions
+│   ├── 03_throw_statements.dart     # Throwing exceptions
+│   └── 04_error_recovery.dart       # Handling different error types
+│
+├── 07_async_programming/            # Asynchronous Programming
+│   ├── 01_futures_basics.dart       # Future, async, await
+│   ├── 02_streams.dart              # Stream, async*, yield
+│   ├── 03_future_methods.dart       # then(), catchError(), timeout()
+│   └── 04_error_handling_async.dart # Error handling in async code
+│
+└── 08_generics/                     # Generics & Advanced Types
+    ├── 01_generic_types.dart        # List<T>, Map<K,V> syntax
+    ├── 02_generic_functions.dart    # Generic function parameters
+    ├── 03_type_constraints.dart     # extends keyword for type bounds
+    └── 04_generic_classes.dart      # Creating generic custom classes
+```
+
+**Learning Strategy:**
+- Each file focuses on **one specific concept**
+- Files include topic guides and empty `main()` function for hands-on practice
+- Code is written personally to reinforce learning
+- Git commits made after each concept mastery (branch history tracking)
 
 - **Language**: Dart
 - **Framework**: Flutter
