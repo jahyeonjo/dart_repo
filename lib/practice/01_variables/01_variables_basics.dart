@@ -13,7 +13,7 @@
 /// Why start here?
 /// - Variables are the foundation for all programming
 /// - Understanding Dart's type system prevents bugs
-/// - Once comfortable, move to 02_operators.dart
+/// - Once comfortable, move to 02_immutability.dart
 
 void main() {
   print("====================================");
