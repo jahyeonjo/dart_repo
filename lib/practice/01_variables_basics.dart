@@ -16,21 +16,32 @@
 /// - Once comfortable, move to 02_operators.dart
 
 void main() {
-  // 1. Variable Declarations
-  print("This is an introduction to variable declarations in Dart.");
+  print("====================================");
+  print("  VARIABLE DECLARATIONS PRACTICE");
+  print("====================================\n");
 
-  var name = "Shaina"; // Type inferred as String
+  // ========== TYPE INFERENCE ==========
+  var name = "Shaina"; // Dart infers as String
+  print("✓ Type Inference: name = '$name'");
 
-  // name = 11; // Reassigning an int to a String variable (will cause an error) - Don't do this.
+  name = "Claris"; // Can reassign same type
+  print("✓ Reassigned: name = '$name'\n");
 
-  name = "Claris"; // Reassigning a new value
+  // ========== EXPLICIT TYPES ==========
+  String city = "Tomasa";
+  int age = 22;
+  double height = 5.3;
+  bool isPretty = true;
 
-  String city = "Tomasa"; // Explicitly declaring a String variable
+  print("✓ Explicit Types:");
+  print("  • City: $city");
+  print("  • Age: $age");
+  print("  • Height: $height ft");
+  print("  • Pretty: $isPretty\n");
 
-  int age = 22; // Declaring an integer variable
-  double height = 5.3; // Declaring a double variable
-  bool isPretty = true; // Declaring a boolean variable
-
-  print(name);
-  print("${name} is ${age} years old, she lives in ${city}, and she is ${height} feet tall. And she's very Pretty. Right? Yup, ${isPretty}");
+  // ========== DISPLAY ALL INFO ==========
+  print("====================================");
+  print("Summary: $name is $age years old, lives in $city, "
+      "is $height feet tall, and is pretty: $isPretty");
+  print("====================================");
 }
