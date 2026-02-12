@@ -16,5 +16,11 @@
 /// - Once comfortable, move to 02_operators.dart
 
 void main() {
-  // Add your variable practice code here
+  // 1. Variable Declarations
+  print("This is an introduction to variable declarations in Dart.");
+  var name = "Shaina"; // Type inferred as String
+
+  name = "Claris"; // Reassigning a new value
+
+  print(name);
 }
