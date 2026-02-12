@@ -99,6 +99,10 @@ flutter test
 
 ## 📚 Resources
 
+### 📖 Dart Deep-Dive Learning Guides
+- **[Dart Deep-Dive Fundamentals](./DART_DEEP_DIVE_FUNDAMENTALS.md)** — Junior to Senior progression guide with actionable insights, real-world scenarios, and performance secrets
+
+### 🔗 Official Documentation
 - [Dart Language Documentation](https://dart.dev/guides)
 - [Flutter Documentation](https://flutter.dev/docs)
 - [Effective Dart](https://dart.dev/guides/language/effective-dart)
