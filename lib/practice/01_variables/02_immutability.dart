@@ -18,6 +18,15 @@
 void main() {
   // ========== STUDY final KEYWORD ==========
   // Practice declaring final variables with different types
+  var age = 25;
+
+  age = 30; // Reassigning age variable
+  print("Reassigned age: $age");
+
+  final age0 = 21;
+
+  // age0 = 35; // Error: Cannot assign to a final variable
+  print("Age0: $age0");
 
   // ========== STUDY const KEYWORD ==========
   // Practice declaring const variables
